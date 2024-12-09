@@ -1,0 +1,9 @@
+name: Project test
+on: push
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Get code
+        run: 
